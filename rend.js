@@ -39,7 +39,7 @@ fetch('https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.g
        prod.appendChild(h2P);
        prod.appendChild(btnP1);
        prod.appendChild(btnP2);
-
+// bouton event listener et boucle
        btnP1.addEventListener("click", function() {
 
         let divprod = document.createElement("div");
@@ -74,6 +74,7 @@ fetch('https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.g
         }
     });
 // fin Produits
+//Avis Clients
        let commentaire = document.createElement("h2");
        commentaire.textContent = "Avis Clients";
        client.appendChild(commentaire);

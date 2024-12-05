@@ -28,7 +28,7 @@ button{
     border: solid;
 }
 button:hover{
-   background-color: black;
+   background-color: #DCC494;
    color: white;
 }
 img{
