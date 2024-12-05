@@ -1,0 +1,139 @@
+body,button{
+    background-color: #311006;
+    color: #C7BC6F;
+}
+a{
+    text-decoration: none;
+    color: #FFAA00;
+
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid;
+    border-color: #ffdd99;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+/* .nav{
+    position: fixed;
+    background-color: #000000;
+} */
+body{
+    margin: 0%;
+}
+button{
+    border: solid;
+}
+button:hover{
+   background-color: black;
+   color: white;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+h1{
+    font-size: 40px;
+    color: #FFC653;
+}
+h2{
+    font-size: 30px;
+    color: #FFC653;
+}
+#acceuil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    gap: 30px;
+    p{
+        font-size: 20px;
+    }
+    button{
+        width: 150px;
+        height: 40px;
+    }
+    li{
+        margin: 15px;
+    }
+}
+
+#produits{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    button{
+        width: 150px;
+        height: 40px;
+    }
+    .divprod{
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        margin: 50px;
+    }
+    div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    h3{
+        font-size: 25px;
+        color: #ffdd99;
+    }
+    p{
+        width: 500px;
+        
+    }
+    }
+}
+.produits{
+    display: flex;
+    flex-direction: column;
+}
+#foot{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    .client{
+        display: flex;
+        gap: 100px;
+        p,h3{
+        width: 380px;
+        
+        }
+    }
+}
+h3{
+    font-size: 25px;
+    color:#ffdd99;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* button{
+    background-color: #000000;
+    color: #ffffff;
+    border: ;
+} */
